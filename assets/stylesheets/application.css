@@ -1,0 +1,1003 @@
+@charset "UTF-8";
+/* line 10, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_index_theme.css.scss.erb */
+body {
+  line-height: 24px;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 100;
+  background-color: #e9e9e9;
+  color: #333333; }
+  /* line 18, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_index_theme.css.scss.erb */
+  body p {
+    font-size: 1.2em;
+    line-height: 28px; }
+
+/* line 28, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_index_theme.css.scss.erb */
+section.page-section {
+  padding: 60px 0; }
+  /* line 30, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_index_theme.css.scss.erb */
+  section.page-section h1.title {
+    margin-top: 0;
+    margin-bottom: 40px;
+    line-height: 50px; }
+
+/* line 39, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_index_theme.css.scss.erb */
+footer#main-footer {
+  padding: 10px 0; }
+  /* line 41, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_index_theme.css.scss.erb */
+  footer#main-footer p {
+    margin: 0; }
+
+/* line 1, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+nav.main-nav .container {
+  padding: 0 0 20px; }
+  /* line 3, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+  nav.main-nav .container .navbar-toggle {
+    margin-top: 0;
+    margin-bottom: 0; }
+    /* line 6, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+    nav.main-nav .container .navbar-toggle span.icon-bar {
+      background: #dcc7be; }
+
+/* line 12, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+.navbar-shrink {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99; }
+
+/* line 19, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+nav.main-nav .navbar-brand img {
+  margin-right: 15px;
+  max-width: 200px;
+  height: 40px; }
+
+/* line 28, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+.navbar-brand span {
+  font-size: 24px;
+  font-weight: 300; }
+
+/* line 33, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+nav.main-nav {
+  background: transparent;
+  box-shadow: 0 0 0px transparent;
+  -webkit-transition: background 0.3s ease-out;
+  transition: background 0.3s ease-out;
+  margin-bottom: 0;
+  color: #dcc7be;
+  background: #1f271b; }
+  /* line 42, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+  nav.main-nav .nav li a {
+    color: #dcc7be; }
+  /* line 46, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+  nav.main-nav .navbar-brand {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 10px;
+    font-size: 22px;
+    line-height: 40px;
+    height: 40px;
+    color: #e9e9e9; }
+  /* line 58, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+  nav.main-nav .container {
+    padding: 10px 20px;
+    -webkit-transition: padding 0.5s ease-out;
+    transition: padding 0.5s ease-out; }
+  /* line 65, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+  nav.main-nav .nav li {
+    background: transparent;
+    margin: 0 10px;
+    border: 2px solid transparent; }
+    /* line 69, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+    nav.main-nav .nav li a {
+      padding: 0px 10px;
+      font-size: 14px;
+      line-height: 38px;
+      font-weight: bold;
+      background: transparent;
+      transition: color .2s ease-in; }
+  /* line 80, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+  nav.main-nav.scrolled {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); }
+    /* line 83, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+    nav.main-nav.scrolled .container {
+      padding: 10px 20px; }
+    /* line 87, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+    nav.main-nav.scrolled .navbar-toggle {
+      color: #74c7d5;
+      border-color: #74c7d5; }
+      /* line 90, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
+      nav.main-nav.scrolled .navbar-toggle .icon-bar {
+        background: #74c7d5; }
+
+/* line 1, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_page_loader.css.scss */
+#page-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  z-index: 99999; }
+  /* line 9, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_page_loader.css.scss */
+  #page-loader .page-loader-gif {
+    display: block;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -32px 0 0 -32px;
+    background: url("../images/preloader.gif") no-repeat; }
+
+/* line 1, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.hero {
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+
+/* line 7, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.fullscreen-carousel {
+  overflow: hidden;
+  position: relative; }
+  /* line 8, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+  .fullscreen-carousel.flexslider {
+    margin: 0;
+    border: 0; }
+  /* line 15, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+  .fullscreen-carousel .slides li {
+    overflow: hidden;
+    position: relative;
+    height: 100%; }
+  /* line 21, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+  .fullscreen-carousel .overlay-hero {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    text-align: center; }
+    /* line 29, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+    .fullscreen-carousel .overlay-hero .caption-hero {
+      display: inline-table;
+      height: 100%;
+      margin: 0 auto;
+      position: relative;
+      padding: 0px;
+      margin: 0px; }
+      /* line 37, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+      .fullscreen-carousel .overlay-hero .caption-hero h1 {
+        margin-top: 15px;
+        margin-bottom: 15px; }
+      /* line 42, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+      .fullscreen-carousel .overlay-hero .caption-hero .inner-caption {
+        display: table-cell;
+        margin: auto;
+        vertical-align: middle;
+        padding-left: 25px;
+        padding-right: 25px; }
+
+/* Full Width Slider */
+/* line 54, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.fullwidth-slider {
+  position: relative;
+  overflow: hidden; }
+
+/* line 59, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.fullwidth-slider .item {
+  height: 650px;
+  position: relative;
+  width: 100%; }
+
+/* Fullscreen Slider Next Prev Arrow*/
+/* line 66, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.fullscreen-carousel .flex-direction-nav a {
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  margin-top: -30px;
+  background: #fff;
+  color: #252525;
+  width: 51px;
+  height: 51px;
+  text-align: center;
+  font-family: 'FontAwesome';
+  color: #323232;
+  transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -webkit-transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+  font-size: 21px;
+  line-height: 51px; }
+
+/* line 86, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.fullscreen-carousel .flex-direction-nav a:hover {
+  color: #e6ae49; }
+
+/* line 90, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.flexslider.fullscreen-carousel:hover .flex-prev {
+  left: 0px;
+  opacity: 1; }
+
+/* line 95, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.fullscreen-carousel .flex-direction-nav .flex-prev {
+  left: -51px;
+  background-position: center left; }
+
+/* line 100, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.fullscreen-carousel .flex-direction-nav .flex-prev:before {
+  content: "";
+  display: inline-block; }
+
+/* line 105, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.flexslider.fullscreen-carousel:hover .flex-next {
+  right: 0px;
+  opacity: 1; }
+
+/* line 110, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.fullscreen-carousel .flex-direction-nav .flex-next {
+  right: -51px;
+  background-position: center right; }
+
+/* line 115, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.fullscreen-carousel .flex-direction-nav .flex-next:before {
+  content: "";
+  display: inline-block; }
+
+@media (max-width: 991px) {
+  /* Fullscreen Slider */
+  /* line 123, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+  .fullscreen-carousel .slides li img {
+    width: 100%;
+    height: 100%; }
+
+  /* line 128, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+  .fullscreen-carousel .caption-hero h1 {
+    font-size: 25px; }
+
+  /* line 132, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+  .fullscreen-carousel .overlay-hero .caption-hero {
+    padding-left: 15px;
+    padding-right: 15px; } }
+@media (max-width: 767px) {
+  /* Fullscreen Slider */
+  /* line 141, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+  .fullscreen-carousel .caption-hero h1 {
+    font-size: 20px;
+    margin: 0; }
+
+  /* line 146, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+  .fullscreen-carousel .caption-hero h5 {
+    margin: 0;
+    font-size: 12px; }
+
+  /* line 151, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+  .fullscreen-carousel .caption-hero .separator {
+    margin-left: auto;
+    margin-right: auto; }
+
+  /* line 156, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+  .fullscreen-carousel .text-left {
+    text-align: center; }
+
+  /* line 160, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+  .full-intro .hero {
+    padding-top: 64px; }
+
+  /* line 164, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+  .hero {
+    padding: 0px; } }
+@media (max-width: 480px) {
+  /* line 170, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+  .fullscreen-carousel .overlay-hero .caption-hero .inner-caption {
+    padding-left: 15px;
+    padding-right: 15px; } }
+/* line 180, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.owl-buttons {
+  position: static; }
+
+/* line 184, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.owl-carousel.white .owl-controls .owl-page span {
+  background: none repeat scroll 0 0 #fff; }
+
+/* line 188, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.owl-carousel.white .owl-controls .owl-page.active span {
+  background: transparent;
+  border: 2px solid #fff; }
+
+/* line 196, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.nf-carousel-theme .owl-controls .owl-pagination {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 15px; }
+
+/* line 205, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.nf-carousel-theme .owl-controls .owl-buttons .owl-prev,
+.nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  font-size: 16px;
+  margin-top: -15px; }
+
+/* line 214, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.content-carousel .owl-controls .owl-buttons .owl-prev,
+.content-carousel .owl-controls .owl-buttons .owl-next,
+.image-slider .owl-controls .owl-buttons .owl-prev,
+.image-slider .owl-controls .owl-buttons .owl-next,
+.fullwidth-slider .owl-controls .owl-buttons .owl-prev,
+.fullwidth-slider .owl-controls .owl-buttons .owl-next,
+.nf-carousel-theme .owl-controls .owl-buttons .owl-prev,
+.nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+  background: rgba(245, 245, 245, 0.8);
+  color: #252525;
+  display: block;
+  top: 50%;
+  transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -webkit-transition: all 0.25s ease 0s;
+  z-index: 3;
+  position: absolute;
+  text-align: center; }
+
+/* line 235, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.content-carousel .owl-controls .owl-buttons .owl-prev:hover,
+.content-carousel .owl-controls .owl-buttons .owl-next:hover,
+.image-slider .owl-controls .owl-buttons .owl-prev:hover,
+.image-slider .owl-controls .owl-buttons .owl-next:hover,
+.fullwidth-slider .owl-controls .owl-buttons .owl-prev:hover,
+.fullwidth-slider .owl-controls .owl-buttons .owl-next:hover,
+.nf-carousel-theme .owl-controls .owl-buttons .owl-prev:hover,
+.nf-carousel-theme .owl-controls .owl-buttons .owl-next:hover {
+  /*background: #fff;*/
+  color: #e6ae49; }
+
+/* line 247, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.content-carousel .owl-controls .owl-buttons .owl-next,
+.image-slider .owl-controls .owl-buttons .owl-next,
+.fullwidth-slider .owl-controls .owl-buttons .owl-next,
+.nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+  right: 0; }
+
+/* line 254, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.nf-carousel-theme .owl-controls .owl-buttons .owl-prev {
+  left: 0;
+  margin-left: -51px;
+  opacity: 0; }
+
+/* line 260, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+  right: 0;
+  margin-right: -51px;
+  opacity: 0; }
+
+/* line 266, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.content-carousel:hover .owl-controls .owl-buttons .owl-prev,
+.content-carousel:hover .owl-controls .owl-buttons .owl-next,
+.image-slider:hover .owl-controls .owl-buttons .owl-prev,
+.image-slider:hover .owl-controls .owl-buttons .owl-next,
+.fullwidth-slider:hover .owl-controls .owl-buttons .owl-prev,
+.fullwidth-slider:hover .owl-controls .owl-buttons .owl-next,
+.nf-carousel-theme:hover .owl-controls .owl-buttons .owl-prev,
+.nf-carousel-theme:hover .owl-controls .owl-buttons .owl-next {
+  margin-right: 0;
+  margin-left: 0;
+  opacity: 1; }
+
+/* -------------------------------------*/
+/* Singel Item slider (Images & Contant Slider) ---------*/
+/* -------------------------------------*/
+/* line 283, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.content-carousel .owl-controls .owl-pagination,
+.image-slider .owl-controls .owl-pagination,
+.fullwidth-slider .owl-controls .owl-pagination,
+.item1-carousel .owl-controls .owl-pagination {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  bottom: 15px;
+  left: 0;
+  text-align: center;
+  width: 100%; }
+
+/* line 296, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.content-carousel .owl-controls .owl-buttons .owl-prev,
+.content-carousel .owl-controls .owl-buttons .owl-next,
+.image-slider .owl-controls .owl-buttons .owl-prev,
+.image-slider .owl-controls .owl-buttons .owl-next,
+.fullwidth-slider .owl-controls .owl-buttons .owl-prev,
+.fullwidth-slider .owl-controls .owl-buttons .owl-next {
+  width: 51px;
+  height: 51px;
+  line-height: 51px;
+  font-size: 21px;
+  margin-top: -25px; }
+
+/* line 309, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.content-carousel .owl-controls .owl-buttons .owl-prev,
+.image-slider .owl-controls .owl-buttons .owl-prev,
+.fullwidth-slider .owl-controls .owl-buttons .owl-prev {
+  left: 0;
+  margin-left: -51px;
+  opacity: 0; }
+
+/* line 317, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.content-carousel .owl-controls .owl-buttons .owl-next,
+.image-slider .owl-controls .owl-buttons .owl-next,
+.fullwidth-slider .owl-controls .owl-buttons .owl-next {
+  right: 0;
+  margin-right: -51px;
+  opacity: 0; }
+
+/* line 325, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.bg-j {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* line 332, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.bg-j-0 {
+  background-image: url(https://middlegirlcdn.s3-us-west-2.amazonaws.com/uploads/image/file/83/k2.jpg); }
+
+/* line 335, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.bg-j-1 {
+  background-image: url(https://middlegirlcdn.s3-us-west-2.amazonaws.com/uploads/image/file/84/k4.jpg); }
+
+/* line 338, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.bg-j-2 {
+  background-image: url(https://middlegirlcdn.s3-us-west-2.amazonaws.com/uploads/image/file/137/palm-spring.jpg); }
+
+/* line 341, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.bg-j-3 {
+  background-image: url(https://middlegirlcdn.s3-us-west-2.amazonaws.com/uploads/image/file/90/0331_1.jpg); }
+
+/* line 344, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.bg-j-4 {
+  background-image: url(https://middlegirlcdn.s3-us-west-2.amazonaws.com/uploads/image/file/108/a7.jpg); }
+
+/* line 348, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.overlay-static-dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(32, 32, 32, 0.4);
+  display: -webkit-flex;
+  display: flex; }
+
+/* line 361, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.overlay-dark, .overlay-dark80, .overlay-light, .overlay-light80 {
+  position: relative;
+  z-index: 1; }
+
+/* line 366, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.overlay-dark {
+  color: #fff; }
+
+/* line 370, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.overlday-light {
+  color: #333; }
+
+/* line 374, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.overlay-dark:before, .overlay-dark80:before, .overlay-light:before, .overlay-light80:before {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: -1; }
+
+/* line 384, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.overlay-dark:before {
+  background-color: rgba(32, 32, 32, 0.4); }
+
+/* line 388, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.overlay-dark80:before {
+  background-color: rgba(32, 32, 32, 0.8); }
+
+/* line 392, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.overlay-light:before {
+  background-color: rgba(255, 255, 255, 0.4); }
+
+/* line 396, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_home_intro.css.scss.erb */
+.overlay-light80:before {
+  background-color: rgba(255, 255, 255, 0.8); }
+
+/* line 4, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_about_cols.css.scss.erb */
+.page-section.about-cols .top-line h2.title {
+  position: relative;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0 0 70px; }
+/* line 11, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_about_cols.css.scss.erb */
+.page-section.about-cols .top-line p.subtitle {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 70px; }
+/* line 17, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_about_cols.css.scss.erb */
+.page-section.about-cols .features-item {
+  margin: 20px 0;
+  text-align: center; }
+  /* line 20, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_about_cols.css.scss.erb */
+  .page-section.about-cols .features-item p {
+    font-size: 1.1em; }
+/* line 24, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_about_cols.css.scss.erb */
+.page-section.about-cols .features-icon {
+  line-height: 1.2;
+  font-size: 42px; }
+/* line 28, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_about_cols.css.scss.erb */
+.page-section.about-cols .features-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: .9em;
+  margin: 16px 0 15px; }
+
+/* line 2, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.container.nf-container1 {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* line 7, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.container.nf-container2 {
+  /*padding-left: 25px;
+  padding-right: 25px;*/ }
+
+/* line 12, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-row1 {
+  margin-left: -15px;
+  margin-right: -15px;
+  /*overflow: hidden;*/ }
+
+/* line 18, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-col-padding {
+  padding-left: 25px;
+  padding-right: 25px; }
+
+/* line 23, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-row2 {
+  /*margin-left: -25px;
+  margin-right: -25px;*/ }
+
+/* line 28, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-row1:before, .nf-row1:after, .nf-row2:before, .nf-row2:after {
+  display: table;
+  content: " "; }
+
+/* line 33, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-row1:after, .nf-row2:after {
+  clear: both; }
+
+/* line 37, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-row1 .nf-item.spacing, .nf-row1 .grid-sizer.spacing {
+  padding: 15px; }
+
+/* line 42, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-row2 .nf-item.spacing, .nf-item.spacing, .nf-row2 .grid-sizer.spacing, .spacing-box {
+  padding: 25px; }
+
+/* line 46, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.spacing-grid {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+/* line 51, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-col-1 .nf-item, .nf-col-1 .grid-sizer {
+  width: 100%;
+  min-height: 1px; }
+
+/* line 56, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-col-2 .nf-item, .nf-col-2 .grid-sizer {
+  width: 50%;
+  min-height: 1px; }
+
+/* line 61, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-col-3 .nf-item, .nf-col-3 .grid-sizer {
+  width: 33.3333%;
+  min-height: 1px; }
+
+/* line 66, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-col-4 .nf-item, .nf-col-4 .grid-sizer {
+  width: 25%;
+  min-height: 1px; }
+
+/* line 71, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-col-5 .nf-item, .nf-col-5 .grid-sizer {
+  width: 20%;
+  min-height: 1px; }
+
+/* line 76, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-col-6 .nf-item, .nf-col-6 .grid-sizer {
+  width: 16.6666%;
+  min-height: 1px; }
+
+/* line 81, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-col-1 .nf-item.w1, .nf-col-2 .nf-item.w1, .nf-col-3 .nf-item.w1, .nf-col-4 .nf-item.w1 {
+  width: 100%; }
+
+/* line 85, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-col-1 .nf-item.w2, .nf-col-2 .nf-item.w2, .nf-col-3 .nf-item.w2, .nf-col-4 .nf-item.w2 {
+  width: 50%; }
+
+/* line 89, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-col-1 .nf-item.w3, .nf-col-2 .nf-item.w3, .nf-col-3 .nf-item.w3, .nf-col-4 .nf-item.w3 {
+  width: 33.3333%; }
+
+/* line 93, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-col-1 .nf-item.w4, .nf-col-2 .nf-item.w4, .nf-col-3 .nf-item.w4, .nf-col-4 .nf-item.w4 {
+  width: 25%; }
+
+/* line 97, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-col-1 .nf-item.w4-2, .nf-col-2 .nf-item.w4-2, .nf-col-3 .nf-item.w4-2, .nf-col-4 .nf-item.w4-2,
+.nf-col-1 .nf-item.w3-2, .nf-col-2 .nf-item.w3-2, .nf-col-3 .nf-item.w3-2, .nf-col-4 .nf-item.w3-2 {
+  width: 50%; }
+
+/* line 102, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-col-1 .nf-item.w4-1, .nf-col-2 .nf-item.w4-1, .nf-col-3 .nf-item.w4-1, .nf-col-4 .nf-item.w4-1 {
+  width: 75%; }
+
+/* line 106, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.nf-col-1 .nf-item.w3-1, .nf-col-2 .nf-item.w3-1, .nf-col-3 .nf-item.w3-1, .nf-col-4 .nf-item.w3-1 {
+  width: 66.6666%; }
+
+@media (max-width: 991px) {
+  /* line 111, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+  .nf-col-2 .nf-item, .nf-col-3 .nf-item, .nf-col-4 .nf-item,
+  .nf-col-1 .nf-item.w2, .nf-col-2 .nf-item.w2, .nf-col-3 .nf-item.w2, .nf-col-4 .nf-item.w2,
+  .nf-col-1 .nf-item.w3, .nf-col-2 .nf-item.w3, .nf-col-3 .nf-item.w3, .nf-col-4 .nf-item.w3,
+  nf-col-1 .nf-item.w4, .nf-col-2 .nf-item.w4, .nf-col-3 .nf-item.w4, .nf-col-4 .nf-item.w4,
+  .nf-col-1 .nf-item.w4-1, .nf-col-2 .nf-item.w4-1, .nf-col-3 .nf-item.w4-1, .nf-col-4 .nf-item.w4-1,
+  .nf-col-1 .nf-item.w3-1, .nf-col-2 .nf-item.w3-1, .nf-col-3 .nf-item.w3-1, .nf-col-4 .nf-item.w3-1 {
+    width: 50%; }
+
+  /* line 120, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+  .nf-col-5 .nf-item, .nf-col-6 .nf-item {
+    width: 33.3333%; }
+
+  /* line 126, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+  .nf-row2 .nf-item.spacing, .nf-row2 .grid-sizer.spacing {
+    padding: 25px; } }
+@media (max-width: 767px) {
+  /* line 133, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+  .container {
+    margin: 0 auto;
+    max-width: 480px;
+    width: 100%; }
+
+  /* line 139, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+  .nf-col-padding {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  /* line 144, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+  .spacing-grid {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+  /* line 150, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+  .nf-col-2 .nf-item, .nf-col-3 .nf-item, .nf-col-4 .nf-item,
+  .nf-col-1 .nf-item.w2, .nf-col-2 .nf-item.w2, .nf-col-3 .nf-item.w2, .nf-col-4 .nf-item.w2,
+  .nf-col-1 .nf-item.w3, .nf-col-2 .nf-item.w3, .nf-col-3 .nf-item.w3, .nf-col-4 .nf-item.w3,
+  nf-col-1 .nf-item.w4, .nf-col-2 .nf-item.w4, .nf-col-3 .nf-item.w4, .nf-col-4 .nf-item.w4,
+  .nf-col-1 .nf-item.w4-1, .nf-col-2 .nf-item.w4-1, .nf-col-3 .nf-item.w4-1, .nf-col-4 .nf-item.w4-1,
+  .nf-col-1 .nf-item.w3-1, .nf-col-2 .nf-item.w3-1, .nf-col-3 .nf-item.w3-1, .nf-col-4 .nf-item.w3-1 {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto; }
+
+  /* line 161, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+  .nf-col-3, .nf-col-4 {
+    margin: 0 auto;
+    max-width: 480px; }
+
+  /* line 166, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+  .nf-col-5 .nf-item, .nf-col-6 .nf-item {
+    width: 100%; }
+
+  /* line 170, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+  .nf-row2 .nf-item.spacing, .nf-row1 .nf-item.spacing, .spacing-box {
+    padding: 15px; }
+
+  /* line 174, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+  .xs-hidden {
+    visibility: hidden !important;
+    display: none !important;
+    opacity: 0; } }
+@media (max-width: 480px) {
+  /* line 183, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+  .nf-col-5 .nf-item, .nf-col-6 .nf-item {
+    width: 100%; } }
+/* line 188, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.container-filter {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  text-align: center; }
+
+/* line 197, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.container-filter li {
+  list-style: none;
+  display: inline-block; }
+
+/* line 202, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.container-filter li a {
+  display: block;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #333333; }
+
+/* line 213, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.container-filter li a.active {
+  color: #111111; }
+
+/* line 217, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-box {
+  position: relative;
+  overflow: hidden;
+  display: block; }
+
+/* line 223, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-box a {
+  display: inline-block;
+  width: 100%; }
+
+/* line 228, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-box:hover .item-mask {
+  opacity: 1;
+  visibility: visible; }
+
+/* line 233, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-box:hover .item-mask .item-caption {
+  bottom: 30px;
+  opacity: 1; }
+
+/* line 238, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-box:hover .item-container {
+  transform: scale(1.1);
+  transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  width: 100%; }
+
+/* line 244, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-container {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  width: 100%;
+  transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  -moz-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  -webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  -o-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s; }
+
+/* line 255, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-mask {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+  height: 100%;
+  position: absolute;
+  transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden; }
+
+/* line 271, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-mask h5, .item-mask h6, .item-mask p {
+  margin-bottom: 0px;
+  color: #fff; }
+
+/* line 276, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-mask p {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin-top: 0;
+  text-align: left; }
+
+/* line 285, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-mask .item-caption {
+  position: absolute;
+  bottom: -60px;
+  left: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+  transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  opacity: 0; }
+
+/* line 299, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.project-detail-block p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+/* line 305, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+ul.project-detail-block, .project-detail-block ul {
+  padding-left: 0; }
+
+/* line 309, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.project-detail-block li {
+  list-style: none; }
+
+/* line 313, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.project-detail-block p strong {
+  display: inline-block;
+  width: 110px; }
+
+/* line 318, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav {
+  text-align: center;
+  display: block;
+  overflow: hidden; }
+
+/* line 324, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav .item-prev, .item-nav .item-next, .item-nav .item-all-view {
+  position: relative;
+  display: inline-block; }
+
+/* line 329, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav .item-all-view h5, .item-nav .item-all-view h6 {
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s; }
+
+/* line 336, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav .item-all-view h5:hover, .item-nav .item-all-view h6:hover {
+  color: #e6ae49; }
+
+/* line 340, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav .item-prev .prev-btn, .item-nav .item-next .next-btn, .item-all-view {
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+  height: 51px;
+  line-height: 51px;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s; }
+
+/* line 352, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav .item-prev .prev-btn, .item-nav .item-next .next-btn {
+  color: #323232;
+  background: #fff;
+  width: 51px; }
+
+/* line 358, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav .item-prev:hover .prev-btn, .item-nav .item-next:hover .next-btn {
+  background: #f7f7f7;
+  /*color: #fff;*/ }
+
+/* line 363, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav .item-prev {
+  text-align: left;
+  float: left; }
+
+/* line 368, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav .item-next {
+  text-align: right;
+  float: right; }
+
+/* line 373, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav .item-prev .item-prev-text, .item-nav .item-next .item-next-text {
+  position: absolute;
+  line-height: 51px;
+  top: 10px;
+  z-index: -1;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  width: 150px; }
+
+/* line 387, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav .item-prev:hover .item-prev-text, .item-nav .item-next:hover .item-next-text {
+  margin-left: 0;
+  margin-right: 0;
+  visibility: visible;
+  opacity: 1; }
+
+/* line 394, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav .item-prev .item-prev-text {
+  left: 100%;
+  margin-left: -110px;
+  padding-left: 15px; }
+
+/* line 400, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav .item-next .item-next-text {
+  right: 100%;
+  margin-right: -110px;
+  padding-right: 15px; }
+
+/* line 406, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav .item-prev .item-prev-text p, .item-nav .item-prev .item-prev-text h5, .item-nav .item-prev .item-prev-text h6,
+.item-nav .item-next .item-next-text p, .item-nav .item-next .item-next-text h5, .item-nav .item-next .item-next-text h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+/* line 414, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_work_gallery.css.scss */
+.item-nav .item-prev .item-prev-text h5, .item-nav .item-prev .item-prev-text h6,
+.item-nav .item-next .item-next-text h5, .item-nav .item-next .item-next-text h6,
+.item-nav .item-all-view h5, .item-nav .item-all-view h6 {
+  padding-top: 8px; }
+
+/* line 2, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_multi_galleries.css.scss */
+.multi-galleries .multi-galleries-item-group {
+  overflow: hidden;
+  margin-bottom: 60px; }
+  /* line 5, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_multi_galleries.css.scss */
+  .multi-galleries .multi-galleries-item-group .item-container {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    width: 100%;
+    transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+    -moz-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+    -webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+    -o-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s; }
+
+/* line 2, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_contact.css.scss */
+section.contact .contact-info {
+  text-align: center;
+  margin-top: 30px; }
+/* line 6, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_contact.css.scss */
+section.contact .fa.fa-wt {
+  margin-right: 10px; }
+
+/* line 11, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
+section.page-section.contact-cols {
+  padding: 40px 0; }
+
+/* line 12, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
+.contact-cols {
+  background: #fff; }
+  /* line 14, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
+  .contact-cols p {
+    font-size: 1em;
+    line-height: 20px; }
+  /* line 15, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
+  .contact-cols .contact-col {
+    position: relative;
+    height: 100px; }
+    /* line 18, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
+    .contact-cols .contact-col .fa {
+      font-size: 1.8em;
+      margin-right: 10px;
+      position: absolute;
+      top: 20px; }
+    /* line 24, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
+    .contact-cols .contact-col .contact-col-info {
+      padding-left: 40px; }
+    /* line 27, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
+    .contact-cols .contact-col h3 {
+      font-size: 1em; }
