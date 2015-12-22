@@ -104,13 +104,6 @@ nav.main-nav {
     /* line 83, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
     nav.main-nav.scrolled .container {
       padding: 10px 20px; }
-    /* line 87, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
-    nav.main-nav.scrolled .navbar-toggle {
-      color: #74c7d5;
-      border-color: #74c7d5; }
-      /* line 90, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_main_nav.css.scss */
-      nav.main-nav.scrolled .navbar-toggle .icon-bar {
-        background: #74c7d5; }
 
 /* line 1, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/_page_loader.css.scss */
 #page-loader {
@@ -980,24 +973,25 @@ section.page-section.contact-cols {
 
 /* line 12, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
 .contact-cols {
-  background: #fff; }
-  /* line 14, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
+  background: #1F271B;
+  color: #f9f9f9; }
+  /* line 15, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
   .contact-cols p {
     font-size: 1em;
     line-height: 20px; }
-  /* line 15, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
+  /* line 16, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
   .contact-cols .contact-col {
     position: relative;
     height: 100px; }
-    /* line 18, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
+    /* line 19, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
     .contact-cols .contact-col .fa {
       font-size: 1.8em;
       margin-right: 10px;
       position: absolute;
       top: 20px; }
-    /* line 24, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
+    /* line 25, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
     .contact-cols .contact-col .contact-col-info {
       padding-left: 40px; }
-    /* line 27, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
+    /* line 28, /home/deployer/middle_girl_sites/sites/tianrui-travel/source/assets/stylesheets/application.css.scss.erb */
     .contact-cols .contact-col h3 {
       font-size: 1em; }
